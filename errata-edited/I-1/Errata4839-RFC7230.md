@@ -8,21 +8,16 @@
 Section 4 says:
 
 
-   Parameters are in the form of a name or name=value pair.
-
+   Parameters are in the form of a name or name=value pair.
+
+
+
      transfer-parameter = token BWS "=" BWS ( token / quoted-string )
 
-It should say:
+// state how to fix the above text here
 
-   Parameters are in the form of a name=value pair.
-
-     transfer-parameter = token BWS "=" BWS ( token / quoted-string )
-
-Notes:
-
-The ABNF does not allow the form of a name.
 ```
 
-## Explanation
+## Issue description
 
-The errata highlights a contradiction. The text states that parameters can be in the form of a name or name=value pair, but the ABNF only allows the name=value pair form. This inconsistency affects how implementations will parse and handle parameters, making it unclear whether a parameter should always have a value or if a name-only parameter is valid.
+Section 4 of RFC 7230 contains a contradiction between the prose description of transfer parameters and the corresponding ABNF definition, creating ambiguity about what forms a valid transfer parameter may take.

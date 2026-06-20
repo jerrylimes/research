@@ -8,22 +8,16 @@
 Section 4.3 says:
 
 
-dmr-prefix6-len: 8 bits long; expresses the bitmask length of the 
-IPv6 prefix specified in the dmr-ipv6-prefix field.  Allowed
+dmr-prefix6-len: 8 bits long; expresses the bitmask length of the 
+
+IPv6 prefix specified in the dmr-ipv6-prefix field.  Allowed
+
 values range from 0 to 128.
 
-It should say:
+// state how to fix the above text here
 
-dmr-prefix6-len: 8 bits long; expresses the bitmask length of the 
-IPv6 prefix specified in the dmr-ipv6-prefix field.  Allowed
-values range from 0 to 96.
-
-Notes:
-
-This field is used to provision the default mapping rule prefix length, which is defined in section 5.1 of RFC7599:
-The DMR IPv6 prefix length SHOULD be 64 bits long by default and in any case MUST NOT exceed 96 bits.
 ```
 
-## Explanation
+## Issue description
 
-The original specification allows values up to 128 for the `dmr-prefix6-len` field, while RFC 7599 limits the maximum length to 96. This inconsistency needs to be resolved to ensure that implementations conform to both specifications. The corrected range is consistent with RFC 7599.
+Section 4.3 of RFC 7598 contains a contradiction between this specification in that section and RFC 7599. This inconsistency needs to be resolved to ensure that implementations conform to both specifications. The corrected range is consistent with RFC 7599.
