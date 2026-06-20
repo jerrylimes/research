@@ -8,33 +8,31 @@
 Section 4.6. says:
 
 
-       --AaB03x
-       content-disposition: form-data; name="_charset_"
-
-       iso-8859-1
-       --AaB03x--
-       content-disposition: form-data; name="field1"
-
-       ...text encoded in iso-8859-1 ...
+       --AaB03x
+
+       content-disposition: form-data; name="_charset_"
+
+
+
+       iso-8859-1
+
+       --AaB03x--
+
+       content-disposition: form-data; name="field1"
+
+
+
+       ...text encoded in iso-8859-1 ...
+
        AaB03x--
 
-It should say:
-
-       --AaB03x
-       content-disposition: form-data; name="_charset_"
-
-       iso-8859-1
-       --AaB03x
-       content-disposition: form-data; name="field1"
-
-       ...text encoded in iso-8859-1 ...
-       --AaB03x--
+// state how to fix the above text here
 
 Notes:
 
-Boundary hyphens were misplaced, I think.  The second boundary delimiter should not have them on the end of the line, and the last boundary delimiter should have them on the beginning of the line too.
+Boundary hyphens were misplaced, I think.
 ```
 
 ## Explanation
 
-The original example incorrectly places boundary hyphens, resulting in an invalid multipart/form-data message. The corrected version correctly positions the boundary hyphens, ensuring a valid message format. This inconsistency could lead to implementations incorrectly parsing or generating multipart/form-data messages.
+The original example incorrectly places boundary hyphens. This inconsistency could lead to implementations incorrectly parsing or generating multipart/form-data messages.
