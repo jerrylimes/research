@@ -17,10 +17,6 @@ Section 2.7.1 says:
 
 
 
-
-Notes:
-
-Per http://tools.ietf.org/html/rfc3986#section-4.3 "URI scheme specifications must define their own syntax so that all strings matching their scheme-specific syntax will also match the <absolute-URI> grammar." See the discussion around http://mailarchive.ietf.org/arch/msg/apps-discuss/gZVRtgOUFyzOk68FgL1jHTzWG2s
 ```
 
 ## Issue description

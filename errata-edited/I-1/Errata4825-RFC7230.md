@@ -8,38 +8,21 @@
 Section Appendix B says:
 
 
-chunk-ext      = *( ";" chunk-ext-name [ "=" chunk-ext-val ] )
+chunk-ext      = *( ";" chunk-ext-name [ "=" chunk-ext-val ] )
 
-
-It should say:
-
-chunk-ext      = *( BWS  ";" BWS chunk-ext-name
-                    [ BWS  "=" BWS chunk-ext-val ] )
+// state how to fix the above text here
 
 Notes:
 
-The infamous "implicit *LWS" syntax rule in RFC 2616 allowed whitespace between
-";" and chunk-ext-name in chunk-ext. Some HTTP agents generate that whitespace.
-In my experience, HTTP agents that can parse chunk extensions usually can handle
-that whitespace. Moreover, ICAP, which generally relies on HTTP/1 for its message
-syntax, uses that whitespace when defining the "ieof" chunk extension in RFC 3507
+The infamous "implicit *LWS" syntax rule in RFC 2616 allowed some extent of flexibility in chunk-ext. Moreover, ICAP, which generally relies on HTTP/1 for its message syntax, uses that flexibility when defining the "ieof" chunk extension in RFC 3507 Section 4.5, which is provided below.
+
 Section 4.5:
-
-      \r\n
-      0; ieof\r\n\r\n
-
-IMHO, RFC 7230 should either allow BWS before chunk-ext-name or at the very least
-explicitly document the HTTP/1 syntax change and its effect on parsers used for both
-ICAP and HTTP/1 messages (a very common case for ICAP-supporting HTTP
-intermediaries and ICAP services).
-
-I also recommend adding BWS around "=", for consistency and RFC 2616 backward
-compatibility reasons. HTTPbis RFCs already do that for transfer-parameter and
-auth-param that have similar syntax.
-
-Please also consider adding BWS _before_ ";" for consistency and RFC 2616 backward
-compatibility reasons. HTTPbis RFCs already do that for transfer-extension,
-accept-ext,  t-ranking, and other constructs with similar syntax.
+
+
+\r\n
+
+0; ieof\r\n\r\n
+
 ```
 
 ## Explanation

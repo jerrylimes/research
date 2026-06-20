@@ -34,7 +34,7 @@ Section 4.8 says:
 
 Notes:
 
-There is an inconsistency between ABNF in section 4.8 and examples in section 5.5. Due to evidence that current implementations are working to what is shown in the examples, this is resolved by updating the ABNF specification.
+There is an inconsistency between ABNF in section 4.8 and examples in section 5.5.
 ```
 
 ## Issue description

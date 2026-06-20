@@ -62,9 +62,6 @@ Section 2 says:
 // state how to fix the above text here
 
 
-Notes:
-
-The date and time format in the original document omits minute even though the descriptive text indicates it should be included.
 ```
 
 ## Issue description

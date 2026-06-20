@@ -28,7 +28,7 @@ Section 4.4.4 says:
 
 Notes:
 
-This state machine figure is informative.  Normative (correct) specification for the I1-SENT to I2-SENT state transition (due to recv R1 event) is in Section 6.8.
+This state machine figure is informative.
 ```
 
 ## Issue description
