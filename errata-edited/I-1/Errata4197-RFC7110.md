@@ -18,4 +18,4 @@ used
 
 ## Issue description
 
-The first paragraph of Section 4 contains an overview of the two new TLVs that the section later introduces. This paragraph does not accurately describe how many nested sub-TLVs can be used to carry the specified return path information, which is elaborated in Section 4.2. This impacts implementation because an implementation relying on Section 4's description would incorrectly reject valid messages with a certain number of sub-TLVs.
+Section 4 of RFC 7110 provides an introductory description of the Reply Path TLV, but that description is inconsistent with the more detailed specification in Section 4.2. Implementations that rely solely on Section 4's description may incorrectly handle messages that are otherwise valid per Section 4.2.

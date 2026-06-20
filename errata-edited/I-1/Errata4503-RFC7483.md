@@ -63,4 +63,4 @@ The unicodeName examples in RFC 7483 are invalid per RFC 5890.
 
 ## Issue description
 
-The unicodeName examples in RFC 7483 are invalid per RFC 5890. This inconsistency would lead to implementations that incorrectly handle unicodeName values containing non-ASCII characters.
+The `unicodeName` field examples in Sections 5.2 and 5.3 of RFC 7483 do not conform to the definition of Unicode names given in Section 3 and established by RFC 5890, creating an inconsistency between the stated requirements and the provided examples that could mislead implementers.

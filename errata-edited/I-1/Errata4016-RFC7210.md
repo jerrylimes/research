@@ -69,4 +69,4 @@ The date and time format in the original document omits minute even though the d
 
 ## Issue description
 
-The original specification omits the minutes field, which is inconsistent with the description. This inconsistency could lead to incorrect implementation and interpretation of the timestamps, directly affecting the functionality of the key management system.
+The timestamp format strings used in the key lifetime fields of Section 2 do not match their accompanying prose descriptions, creating an ambiguity in how implementations should format and interpret these values.

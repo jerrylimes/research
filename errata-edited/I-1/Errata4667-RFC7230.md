@@ -34,6 +34,6 @@ Section 4.5:
 
 ```
 
-## Explanation
+## Issue description
 
-The erratum points to an inconsistency between RFC 7230's definition of `chunk-ext` and the actual practices and implementations observed in HTTP agents and ICAP. This inconsistency creates interoperability issues because HTTP agents might generate whitespace in a way that RFC 7230 does not permit, while parsers adhering strictly to RFC 7230 might fail to parse valid HTTP messages. The proposed correction improves consistency and interoperability with older systems.
+The `chunk-ext` ABNF rule in Section 4.1.1 of RFC 7230 does not accommodate whitespace handling that was permitted under RFC 2616 and is widely used in practice, including by ICAP implementations. This creates interoperability issues where HTTP agents may generate messages that strict RFC 7230 parsers cannot handle.

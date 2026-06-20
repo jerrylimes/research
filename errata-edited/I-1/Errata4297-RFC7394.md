@@ -36,4 +36,4 @@ Section 3.1 says:
 
 ## Issue description
 
-The original specification incorrectly defines one of the fields. The correction should align with RFC 4379. This inconsistency would lead to incorrect interpretation and processing of the Time To Live TLV.
+The TTL TLV format diagram in Section 3.1 of RFC 7394 specifies a field value that conflicts with how RFC 4379 defines TLV Length fields, leading to incorrect interpretation of the TTL TLV by implementations.

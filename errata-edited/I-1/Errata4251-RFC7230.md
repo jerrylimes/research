@@ -25,4 +25,4 @@ Per http://tools.ietf.org/html/rfc3986#section-4.3 "URI scheme specifications mu
 
 ## Issue description
 
-The erratum points out that the original definition of `http-URI` in Section 2.7.1 of RFC 7230 is inconsistent with RFC 3986. The definition is incorrect according to RFC 3986's requirements for URI scheme specifications.  This inconsistency directly affects the implementation of HTTP clients and servers that need to parse and generate HTTP URIs correctly, potentially causing interoperability problems.
+The `http-URI` ABNF production in Section 2.7.1 of RFC 7230 includes a component that is not permitted by RFC 3986's requirements for absolute URIs, creating an inconsistency that affects how HTTP clients and servers parse and generate HTTP URIs.

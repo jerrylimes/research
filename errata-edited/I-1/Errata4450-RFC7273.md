@@ -39,4 +39,4 @@ There is an inconsistency between ABNF in section 4.8 and examples in section 5.
 
 ## Issue description
 
-The ABNF is inconsistent with the examples provided in Section 5.5 and the actual practice of implementations. This inconsistency would affect parsers that strictly adhere to the original ABNF.
+The ABNF definitions in Section 4.8 of RFC 7273 for `ptp-domain-name` and `ptp-domain-nmbr` are inconsistent with the examples in Section 5.5 and with how existing implementations behave, making strict conformance to the ABNF as written impractical.

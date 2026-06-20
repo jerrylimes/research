@@ -19,9 +19,9 @@ This change, that looks to be a change of substance, has been verified with the 
 
 ## Issue description
 
-Section 7 states that Shared Explicit (SE) style is required when increasing ODUflex bandwidth. However, the reported text uses a less mandatory language when describing the corresponding behavior for decreasing ODUflex bandwidth. This creates an inconsistency between the requirements for increasing and decreasing bandwidth.
+Section 7 of RFC 7139 establishes requirements for Shared Explicit (SE) style signaling when managing ODUflex bandwidth, but the signaling requirements are stated with different levels of obligation depending on whether bandwidth is being increased or decreased. This inconsistency between the two procedures affects implementation correctness.
 
-**For this example, the correct fix has been provided to you as a reference to the disambiguation process.**
+**For this example, the correct fix has been provided to you as a guide to how to correctly disambiguate the erroneous text.**
 
 ## Correct fix
 ```

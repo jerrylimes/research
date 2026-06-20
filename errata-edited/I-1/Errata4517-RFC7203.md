@@ -16,4 +16,4 @@ The schema has the <sequence> </sequence> tags.
 
 ## Issue description
 
-The erratum corrects an error in the schema definition. This inconsistency directly impacts the usability of the schema as it cannot be parsed by schema validators, affecting implementations that rely on schema validation.
+The XML schema in Section 5.2 of RFC 7203 uses a tag form that is inconsistent with the examples elsewhere in the document, making the schema invalid and unparseable by standard XML schema validators. This directly impacts any implementation that relies on schema validation.

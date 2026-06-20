@@ -33,4 +33,4 @@ This state machine figure is informative.  Normative (correct) specification for
 
 ## Issue description
 
-The state machine diagram is not correct in Section 4.4.4 of RFC 7401. This inconsistency affects the understanding and implementation of the HIPv2 state machine.
+The state machine diagram in Section 4.4.4 of RFC 7401 contains an error that conflicts with the normative specification in Section 6.8, affecting the understanding and implementation of the HIPv2 state machine.

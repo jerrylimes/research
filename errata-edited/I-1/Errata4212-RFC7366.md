@@ -48,4 +48,4 @@ Section 3 says:
 
 ## Issue description
 
-This text, covering the use of length values, could be interpreted in two different ways. This ambiguity could lead to incorrect implementations of the MAC calculation, resulting in interoperability issues between different implementations of TLS. The corrected text clarifies that the length value used for MAC calculation is different from the length field in the TLSCipherText record. This resolves any confusion and ensures that implementations will correctly compute the MAC based on the intended data.
+Section 3 of RFC 7366 specifies MAC calculation formulas for TLS, but the text is ambiguous about which length value should be used in the computation. This ambiguity has led different implementers to reach different conclusions, causing interoperability issues between TLS implementations.

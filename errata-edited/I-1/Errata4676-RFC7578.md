@@ -33,6 +33,6 @@ Notes:
 Boundary hyphens were misplaced, I think.
 ```
 
-## Explanation
+## Issue description
 
-The original example incorrectly places boundary hyphens. This inconsistency could lead to implementations incorrectly parsing or generating multipart/form-data messages.
+The multipart/form-data example in Section 4.6 of RFC 7578 contains boundary delimiters that are not correctly formed, making the example non-conformant with the multipart format. Implementations using this example as a reference could produce invalid messages.
