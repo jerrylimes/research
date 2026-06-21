@@ -10,18 +10,10 @@ Section 4.4.2 says:
 
 set KeepaliveTimer(S,G) to RP_Keepalive_Period;
 
-It should say:
+// state how to fix the above text here
 
-set KeepaliveTimer(S,G) to max(Keepalive_Period, RP_Keepalive_Period);
-
-Notes:
-
-The normal keepalive period for the KAT(S,G) defaults to 210 seconds. However, at the RP, the keepalive period must be at least the Register_Suppression_Time, or the RP may time out the (S,G) state before the next Null-Register arrives. Thus, the KAT(S,G) is set to max(Keepalive_Period, RP_Keepalive_Period) when a Register-Stop is sent.
-
-====
-Note that the text above comes from §4.11.
 ```
 
-## Explanation
+## Issue description
 
-The original specification sets the KeepaliveTimer to RP_Keepalive_Period, which may be shorter than the actual keepalive period. This inconsistency can lead to premature timeouts. The corrected specification uses the maximum of Keepalive_Period and RP_Keepalive_Period, ensuring that the timer is long enough to avoid premature timeouts.
+Setting the keepalive period for KAT(S, G) to RP_Keepalive_Period, which may be shorter than the actual keepalive period, can cause RP to time out the (S, G) state before the next Null-Register arrives. This inconsistency can lead to premature timeouts. The correct period should ensure that the timer is long enough to avoid premature timeouts.

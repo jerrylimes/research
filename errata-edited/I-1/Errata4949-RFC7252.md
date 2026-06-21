@@ -8,23 +8,18 @@
 Section 5.10.7 says:
 
 
-If any
-of these reserved option numbers occurs in addition to Location-Path
-and/or Location-Query and are not supported, then a 4.02 (Bad Option)
+If any
+
+of these reserved option numbers occurs in addition to Location-Path
+
+and/or Location-Query and are not supported, then a 4.02 (Bad Option)
+
 error MUST be returned.
 
-It should say:
+// state how to fix the above text here
 
-If any
-of these reserved option numbers occurs in addition to Location-Path
-and/or Location-Query and are not supported, then the response MUST
-be rejected (Sections 4.2 and 4.3).
-
-Notes:
-
-The Location-* options are used in responses. A client cannot return a 4.02 (Bad Option) response in reply to a response. The correct behavior is to reject the response.
 ```
 
-## Explanation
+## Issue description
 
-The errata report corrects the handling of unsupported reserved option numbers in responses.  The original specification incorrectly states that a 4.02 (Bad Option) error MUST be returned, which is not possible for a client responding to a server. The correct behavior is to reject the response. This inconsistency impacts implementations that rely on the original specification to handle these responses correctly.
+The original text in Section 5.10.7 does not handle unsupported reserved option numbers correctly. This inconsistency impacts implementations that rely on the original specification to handle these responses correctly.

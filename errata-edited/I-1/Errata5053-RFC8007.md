@@ -1,5 +1,7 @@
 # Errata 5053 - RFC 8007
 
+**This errata will not participate in training the LLM as it is an extremely trivial editorial errata.**
+
 - **RFC Title:** Content Delivery Network Interconnection (CDNI) Control Interface / Triggers
 - **RFC Publication Date:** December 2016
 - Link to original errata report: [rfc-editor.org/errata/eid5053](https://www.rfc-editor.org/errata/eid5053)
@@ -8,13 +10,16 @@
 Section 5.2.3 says:
 
 
-| canceling |
+| canceling |
+
 | canceled  |
 
 It should say:
 
-| cancelling |
-| cancelled  |
+| cancelling |
+
+| cancelled  |
+
 
 
 Notes:

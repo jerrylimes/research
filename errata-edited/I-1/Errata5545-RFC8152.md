@@ -8,69 +8,64 @@
 Section 7.1 says:
 
 
-   +---------+-------+----------------+------------+-------------------+
-   | Name    | Label | CBOR Type      | Value      | Description       |
-   |         |       |                | Registry   |                   |
-   +---------+-------+----------------+------------+-------------------+
-   | kty     | 1     | tstr / int     | COSE Key   | Identification of |
-   |         |       |                | Common     | the key type      |
-   |         |       |                | Parameters |                   |
-   |         |       |                |            |                   |
-   | kid     | 2     | bstr           |            | Key               |
-   |         |       |                |            | identification    |
-   |         |       |                |            | value -- match to |
-   |         |       |                |            | kid in message    |
-   |         |       |                |            |                   |
-   | alg     | 3     | tstr / int     | COSE       | Key usage         |
-   |         |       |                | Algorithms | restriction to    |
-   |         |       |                |            | this algorithm    |
-   |         |       |                |            |                   |
-   | key_ops | 4     | [+ (tstr/int)] |            | Restrict set of   |
-   |         |       |                |            | permissible       |
-   |         |       |                |            | operations        |
-   |         |       |                |            |                   |
-   | Base IV | 5     | bstr           |            | Base IV to be     |
-   |         |       |                |            | xor-ed with       |
-   |         |       |                |            | Partial IVs       |
-   +---------+-------+----------------+------------+-------------------+
-
+   +---------+-------+----------------+------------+-------------------+
+
+   | Name    | Label | CBOR Type      | Value      | Description       |
+
+   |         |       |                | Registry   |                   |
+
+   +---------+-------+----------------+------------+-------------------+
+
+   | kty     | 1     | tstr / int     | COSE Key   | Identification of |
+
+   |         |       |                | Common     | the key type      |
+
+   |         |       |                | Parameters |                   |
+
+   |         |       |                |            |                   |
+
+   | kid     | 2     | bstr           |            | Key               |
+
+   |         |       |                |            | identification    |
+
+   |         |       |                |            | value -- match to |
+
+   |         |       |                |            | kid in message    |
+
+   |         |       |                |            |                   |
+
+   | alg     | 3     | tstr / int     | COSE       | Key usage         |
+
+   |         |       |                | Algorithms | restriction to    |
+
+   |         |       |                |            | this algorithm    |
+
+   |         |       |                |            |                   |
+
+   | key_ops | 4     | [+ (tstr/int)] |            | Restrict set of   |
+
+   |         |       |                |            | permissible       |
+
+   |         |       |                |            | operations        |
+
+   |         |       |                |            |                   |
+
+   | Base IV | 5     | bstr           |            | Base IV to be     |
+
+   |         |       |                |            | xor-ed with       |
+
+   |         |       |                |            | Partial IVs       |
+
+   +---------+-------+----------------+------------+-------------------+
+
+
+
                           Table 3: Key Map Labels
 
-It should say:
+// state how to fix the above text here
 
-   +---------+-------+----------------+------------+-------------------+
-   | Name    | Label | CBOR Type      | Value      | Description       |
-   |         |       |                | Registry   |                   |
-   +---------+-------+----------------+------------+-------------------+
-   | kty     | 1     | tstr / int     | COSE Key   | Identification of |
-   |         |       |                | Types      | the key type      |
-   |         |       |                |            |                   |
-   |         |       |                |            |                   |
-   | kid     | 2     | bstr           |            | Key               |
-   |         |       |                |            | identification    |
-   |         |       |                |            | value -- match to |
-   |         |       |                |            | kid in message    |
-   |         |       |                |            |                   |
-   | alg     | 3     | tstr / int     | COSE       | Key usage         |
-   |         |       |                | Algorithms | restriction to    |
-   |         |       |                |            | this algorithm    |
-   |         |       |                |            |                   |
-   | key_ops | 4     | [+ (tstr/int)] |            | Restrict set of   |
-   |         |       |                |            | permissible       |
-   |         |       |                |            | operations        |
-   |         |       |                |            |                   |
-   | Base IV | 5     | bstr           |            | Base IV to be     |
-   |         |       |                |            | xor-ed with       |
-   |         |       |                |            | Partial IVs       |
-   +---------+-------+----------------+------------+-------------------+
-
-                          Table 3: Key Map Labels
-
-Notes:
-
-The value registry for kty should be COSE Key Types, as indicated in the text following Table 3. This change affects the IANA registry: https://www.iana.org/assignments/cose/cose.xhtml#key-common-parameters
 ```
 
-## Explanation
+## Issue description
 
-The original table incorrectly describes the value registry for the kty parameter as "COSE Key Common Parameters." The correction uses the correct term "COSE Key Types", resolving the inconsistency between the table and the text following it.
+The original table uses an incorrect term to describe the value registry for the kty parameter that is not consistent with the text following it.

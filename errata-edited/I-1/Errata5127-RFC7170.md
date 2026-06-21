@@ -8,27 +8,14 @@
 Section 5.2. says:
 
 
-IMSK = First 32 octets of TLS-PRF(EMSK, "TEAPbindkey@ietf.org" |
+IMSK = First 32 octets of TLS-PRF(EMSK, "TEAPbindkey@ietf.org" |
+
      "\0" | 64)
 
-It should say:
+// state how to fix the above text here
 
-IMSK = First 32 octets of TLS-PRF(EMSK, "TEAPbindkey@ietf.org" |
-     "\0", 64)
-
-Notes:
-
-According to
-
-RFC5246 The Transport Layer Security (TLS) Protocol Version 1.2
-
-5.  HMAC and the Pseudorandom Function
-
-"TLS's PRF is created by applying P_hash to the secret as:
-
-      PRF(secret, label, seed) = P_<hash>(secret, label + seed)"
 ```
 
-## Explanation
+## Issue description
 
-The erratum corrects the formula for IMSK calculation. The original formula incorrectly includes a pipe symbol between "\0" and 64, where it should be a comma.  This is an inconsistency because the corrected formula adheres to the TLS-PRF specification described in RFC 5246, whereas the original formula does not. This inconsistency can lead to incorrect IMSK generation, affecting the security of the TEAP protocol.
+Section 5.2 presents a contradiction between its TLS-PRF specification and the one in Section 5 of RFC 5246. This inconsistency can lead to incorrect IMSK generation, affecting the security of the TEAP protocol.
