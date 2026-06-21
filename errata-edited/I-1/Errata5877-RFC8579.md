@@ -8,45 +8,38 @@
 Section 6 says:
 
 
-require "imapsieve";
-require "special-use";
-require "environment";
-require "variables";
-
-if environment :contains "imap.mailbox" "*" {
-    set "mailbox" "${1}";
-}
-
-if allof(
-    environment "imap.cause" "COPY",
-    specialuse_exists "${mailbox}" "\\Junk") {
-    redirect "spam-report@example.org";
-}
+require "imapsieve";
+
+require "special-use";
+
+require "environment";
+
+require "variables";
 
 
-It should say:
 
-require "imapsieve";
-require "special-use";
-require "environment";
-require "variables";
-
-if environment :matches "imap.mailbox" "*" {
-    set "mailbox" "${1}";
-}
-
-if allof(
-    environment "imap.cause" "COPY",
-    specialuse_exists "${mailbox}" "\\Junk") {
-    redirect "spam-report@example.org";
-}
+if environment :contains "imap.mailbox" "*" {
+
+    set "mailbox" "${1}";
+
+}
 
 
-Notes:
 
-The final example is using the ":contains" match type to extract a match variable, which will not work. It should use ":matches" instead.
+if allof(
+
+    environment "imap.cause" "COPY",
+
+    specialuse_exists "${mailbox}" "\\Junk") {
+
+    redirect "spam-report@example.org";
+
+}
+
+// state how to fix the above text here
+
 ```
 
 ## Explanation
 
-The original example uses the ":contains" match type, which is incorrect for extracting a match variable. The correction uses the ":matches" type, which is the correct match type for this operation.  This inconsistency would affect the operation of the Sieve script.
+The original example uses an incorrect match type for extracting a match variable. This inconsistency would affect the operation of the Sieve script.

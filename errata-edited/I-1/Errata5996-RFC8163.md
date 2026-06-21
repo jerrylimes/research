@@ -8,29 +8,22 @@
 Section Appendix B. says:
 
 
-       /*
-        * Sanity check the encoding to prevent the while() loop below
-        * from overrunning the output buffer.
-        */
-       if (read_index + code > length)
-         return 0;
+       /*
 
+        * Sanity check the encoding to prevent the while() loop below
 
-It should say:
+        * from overrunning the output buffer.
 
-       /*
-        * Sanity check the encoding to prevent the while() loop below
-        * from overrunning the output buffer.
-        */
-       if (code == 0 || read_index + code > length)
-         return 0;
+        */
 
+       if (read_index + code > length)
 
-Notes:
+         return 0;
 
-This was submitted as a change to [BACnet], Annex T, by James Butler.  The normative procedure for decoding COBS is correct in [BACnet], 9.10.3.2(a) but this bug appears in the informative example in Annex T.  Since the purpose of COBS encoding is to eliminate all zero bytes from the data, the presence of a zero indicates an error.
+// state how to fix the above text here
+
 ```
 
 ## Explanation
 
-The original code lacks a check for a zero code value, which is an error condition in COBS encoding.  The correction adds this check, making the example code consistent with the normative decoding procedure. This inconsistency would lead to implementations failing to detect errors in COBS encoded data.
+The original code does not accommodate an edge case in COBS encoding. This inconsistency would lead to implementations failing to detect errors in COBS encoded data.

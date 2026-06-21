@@ -8,60 +8,52 @@
 Section 2.1 says:
 
 
-"capabilities": {
-  "urn:ietf:params:jmap:core": {
-    "maxSizeUpload": 50000000,
-    "maxConcurrentUpload": 8,
-    "maxSizeRequest": 10000000,
-    "maxConcurrentRequest": 8,
-    "maxCallsInRequest": 32,
-    "maxObjectsInGet": 256,
-    "maxObjectsInSet": 128,
-    "collationAlgorithms": [
-      "i;ascii-numeric",
-      "i;ascii-casemap",
-      "i;unicode-casemap"
-    ]
-  },
-  "urn:ietf:params:jmap:mail": {}
-  "urn:ietf:params:jmap:contacts": {},
-  "https://example.com/apis/foobar": {
-    "maxFoosFinangled": 42
-  }
-}
+"capabilities": {
 
-It should say:
+  "urn:ietf:params:jmap:core": {
 
-"capabilities": {
-  "urn:ietf:params:jmap:core": {
-    "maxSizeUpload": 50000000,
-    "maxConcurrentUpload": 8,
-    "maxSizeRequest": 10000000,
-    "maxConcurrentRequests": 8,
-    "maxCallsInRequest": 32,
-    "maxObjectsInGet": 256,
-    "maxObjectsInSet": 128,
-    "collationAlgorithms": [
-      "i;ascii-numeric",
-      "i;ascii-casemap",
-      "i;unicode-casemap"
-    ]
-  },
-  "urn:ietf:params:jmap:mail": {},
-  "urn:ietf:params:jmap:contacts": {},
-  "https://example.com/apis/foobar": {
-    "maxFoosFinangled": 42
-  }
-}
+    "maxSizeUpload": 50000000,
 
-Notes:
+    "maxConcurrentUpload": 8,
 
-In the capabilities section of the example Session Resource response, "maxConcurrentRequest" should be "maxConcurrentRequests". 
-
-In addition, the following line is missing a trailing comma:
+    "maxSizeRequest": 10000000,
+
+    "maxConcurrentRequest": 8,
+
+    "maxCallsInRequest": 32,
+
+    "maxObjectsInGet": 256,
+
+    "maxObjectsInSet": 128,
+
+    "collationAlgorithms": [
+
+      "i;ascii-numeric",
+
+      "i;ascii-casemap",
+
+      "i;unicode-casemap"
+
+    ]
+
+  },
+
   "urn:ietf:params:jmap:mail": {}
+
+  "urn:ietf:params:jmap:contacts": {},
+
+  "https://example.com/apis/foobar": {
+
+    "maxFoosFinangled": 42
+
+  }
+
+}
+
+// state how to fix the above text here
+
 ```
 
-## Explanation
+## Issue description
 
-The example JSON uses the incorrect parameter name "maxConcurrentRequest" instead of the correct parameter name "maxConcurrentRequests". This inconsistency would cause issues when parsing and generating JMAP capability responses.
+A punctuation is missing, and a property name is grammatically incorrect. This inconsistency would cause issues when parsing and generating JMAP capability responses.
