@@ -18,4 +18,4 @@ equal to "invalid".
 
 ## Issue description
 
-The statement in Section 8 that a challenge object with an error MUST have status equal to "invalid" is inconsistent with the retry mechanism described in Section 8.2 in that it prevents the retry from ever happening.
+The statement in Section 8 that a challenge object with an error MUST have status equal to "invalid" is inconsistent with the retry mechanism described in Section 8.2.

@@ -8,24 +8,18 @@
 Section 8.1 says:
 
 
-   The DHCPv4 server MAY include a single instance of the
-   OPTION_V4_SZTP_REDIRECT option in DHCP messages it sends.  Servers
-   MUST NOT send more than one instance of the OPTION_V4_SZTP_REDIRECT
+   The DHCPv4 server MAY include a single instance of the
+
+   OPTION_V4_SZTP_REDIRECT option in DHCP messages it sends.  Servers
+
+   MUST NOT send more than one instance of the OPTION_V4_SZTP_REDIRECT
+
    option.
 
-It should say:
+// state how to fix the above text here
 
-   The DHCPv4 server MAY include OPTION_V4_SZTP_REDIRECT in DHCP messages it sends.
-
-Notes:
-
-The original text contradicts the statement in the same section:
-   "If the length of the 'bootstrap-server-list' field is too large to
-   fit into a single option, then OPTION_V4_SZTP_REDIRECT MUST be split
-   into multiple instances of the option according to the process
-   described in [RFC3396]."
 ```
 
 ## Explanation
 
-The original specification contains conflicting statements regarding the number of OPTION_V4_SZTP_REDIRECT options allowed in DHCP messages. The corrected version removes the restriction on the number of options, aligning with the text in the same section that allows for multiple instances of the option when necessary.
+The original text in Section 8.1 contains a requirement that conflicts with other text in the same section.

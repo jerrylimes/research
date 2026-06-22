@@ -10,15 +10,10 @@ Section 9 says:
 
 Within each access list, access is permitted to packets flowing to or from the Thing that can be mapped to the domain name of "service.bms.example.com".
 
-It should say:
+// state how to fix the above text here
 
-Within each access list, access is permitted to packets flowing to or from the Thing that can be mapped to the domain name of "test.example.com".
-
-Notes:
-
-The subdomain in the Figure does not correspond to the one in the text.
 ```
 
 ## Explanation
 
-The text describes access control for "service.bms.example.com", which is inconsistent with the diagram showing "test.example.com".  This discrepancy affects the understanding of the example and its implementation.
+The text describes access control for an example domain name that is inconsistent with the diagram.  This discrepancy affects the understanding of the example and its implementation.

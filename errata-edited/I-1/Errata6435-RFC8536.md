@@ -8,27 +8,22 @@
 Section 5.2 says:
 
 
-   >> Response <<
-
-   HTTP/1.1 200 OK
-   Date: Fri, 01 Jun 2018 14:52:23 GMT
-   Content-Type: application/json; charset="utf-8"
+   >> Response <<
+
+
+
+   HTTP/1.1 200 OK
+
+   Date: Fri, 01 Jun 2018 14:52:23 GMT
+
+   Content-Type: application/json; charset="utf-8"
+
    Content-Length: xxxx
 
-It should say:
+// state how to fix the above text here
 
-   >> Response <<
-
-   HTTP/1.1 200 OK
-   Date: Fri, 01 Jun 2018 14:52:23 GMT
-   Content-Type: application/json
-   Content-Length: xxxx
-
-Notes:
-
-There is no charset parameter on application/json. See https://tools.ietf.org/html/rfc8259#section-11 (last sentence).
 ```
 
-## Explanation
+## Issue description
 
-The original response includes a charset parameter in the Content-Type header for application/json, which is incorrect according to RFC 8259. The correction removes the charset parameter, making the response consistent with the specification.
+The original response is missing a parameter in one of the headers for application/json, which is incorrect according to Section 11 of RFC 8259.

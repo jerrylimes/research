@@ -8,66 +8,58 @@
 Section 5.5.2.1 says:
 
 
-...
-             <network-access-id>LA1</network-access-id>
-                <service>
-                  <svc-bandwidth>
-                     <bandwidth>
-                       <direction>input-bw</direction>
-                        <type>bw-per-cos</type>
-                         <cir>450000000</cir>
-                         <cbs>20000000</cbs>
-                         <eir>1000000000</eir>
-                         <ebs>200000000</ebs>
-                     </bandwidth>
-                    </svc-bandwidth>
-...
-            <network-access-id>LA2</network-access-id>
-                <service>
-                  <svc-bandwidth>
-                     <bandwidth>
-                       <direction>input-bw</direction>
-                        <type>bw-per-cos</type>
-                         <cir>450000000</cir>
-                         <cbs>20000000</cbs>
-                         <eir>1000000000</eir>
+...
+
+             <network-access-id>LA1</network-access-id>
+
+                <service>
+
+                  <svc-bandwidth>
+
+                     <bandwidth>
+
+                       <direction>input-bw</direction>
+
+                        <type>bw-per-cos</type>
+
+                         <cir>450000000</cir>
+
+                         <cbs>20000000</cbs>
+
+                         <eir>1000000000</eir>
+
                          <ebs>200000000</ebs>
 
-It should say:
+                     </bandwidth>
 
-...
-             <network-access-id>LA1</network-access-id>
-                <service>
-                  <svc-bandwidth>
-                     <bandwidth>
-                       <direction>input-bw</direction>
-                        <type>bw-per-cos</type>
-                         <cos-id>10</cos-id>
-                         <cir>450000000</cir>
-                         <cbs>20000000</cbs>
-                         <eir>1000000000</eir>
-                         <ebs>200000000</ebs>
-                     </bandwidth>
-                    </svc-bandwidth>
-...
-            <network-access-id>LA2</network-access-id>
-                <service>
-                  <svc-bandwidth>
-                     <bandwidth>
-                       <direction>input-bw</direction>
-                        <type>bw-per-cos</type>
-                         <cos-id>10</cos-id>
-                         <cir>450000000</cir>
-                         <cbs>20000000</cbs>
-                         <eir>1000000000</eir>
-                         <ebs>200000000</ebs>
+                    </svc-bandwidth>
 
+...
 
-Notes:
+            <network-access-id>LA2</network-access-id>
 
-The cos-id must be included when the bandwidth type is set to "bw-per-cos".
+                <service>
+
+                  <svc-bandwidth>
+
+                     <bandwidth>
+
+                       <direction>input-bw</direction>
+
+                        <type>bw-per-cos</type>
+
+                         <cir>450000000</cir>
+
+                         <cbs>20000000</cbs>
+
+                         <eir>1000000000</eir>
+
+                         <ebs>200000000</ebs>
+
+// state how to fix the above text here
+
 ```
 
-## Explanation
+## Issue description
 
-The original example omits the required "cos-id" parameter when the "type" attribute is set to "bw-per-cos".  The correction adds the missing "cos-id" parameter, resolving the inconsistency. This inconsistency would lead to implementations incorrectly processing svc-bandwidth configurations.
+The original example is missing a parameter when the "type" attribute is set to "bw-per-cos". This inconsistency would lead to implementations incorrectly processing svc-bandwidth configurations.
