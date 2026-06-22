@@ -8,48 +8,36 @@
 Section 5.6.5 says:
 
 
-For example, with these modules:
-
-     module a {
-       yang-version 1.1;
-       namespace "urn:example:a";
-       prefix "a";
-
-       import b {
-         revision-date 2015-01-01;
-       }
-       import c;
-
-       revision 2015-01-01;
+For example, with these modules:
 
 
-It should say:
 
-For example, with these modules:
-
-     module a {
-       yang-version 1.1;
-       namespace "urn:example:a";
-       prefix "a";
-
-       import b {
-         revision-date 2015-01-01;
-         prefix b;
-       }
-       import c {
-         prefix c;
-       }
-
-       revision 2015-01-01;
+     module a {
+
+       yang-version 1.1;
+
+       namespace "urn:example:a";
+
+       prefix "a";
 
 
-Notes:
 
-As is considered in 7.1.5, The mandatory "prefix" substatement assigns a prefix for the imported module that is scoped to the importing module or submodule. 
-
-So, there should be a prefix substatement in the "import b" and "import c" statement respectively.
+       import b {
+
+         revision-date 2015-01-01;
+
+       }
+
+       import c;
+
+
+
+       revision 2015-01-01;
+
+// state how to fix the above text here
+
 ```
 
-## Explanation
+## Issue description
 
-The original example omits the mandatory "prefix" substatement within the "import" statements, violating the rules defined in Section 7.1.5. The correction adds the missing "prefix" substatements, making the example consistent with the specification. This inconsistency would affect implementations that rely on the correct usage of the "prefix" substatement within import statements.
+The original example is missing substatements within the "import" statements, violating the rules defined in Section 7.1.5. This inconsistency would affect implementations that rely on the example for guidance on the correct structure of import statements.

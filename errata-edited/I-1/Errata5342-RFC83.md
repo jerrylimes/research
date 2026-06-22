@@ -16,4 +16,4 @@ set KeepaliveTimer(S,G) to RP_Keepalive_Period;
 
 ## Issue description
 
-Setting the keepalive period for KAT(S, G) to RP_Keepalive_Period, which may be shorter than the actual keepalive period, can cause RP to time out the (S, G) state before the next Null-Register arrives. This inconsistency can lead to premature timeouts. The correct period should ensure that the timer is long enough to avoid premature timeouts.
+Setting the keepalive period for KAT(S, G) to RP_Keepalive_Period, which may be shorter than the actual keepalive period, can cause RP to time out the (S, G) state before the next Null-Register arrives. This inconsistency can lead to premature timeouts.

@@ -30,4 +30,4 @@ Section 6.3.1 says:
 
 ## Issue description
 
-The applicability of the specification of the rule contadicts the applicability outlined in its description. This inconsistency would lead to implementations incorrectly matching labels based on the length.
+The applicability of the specification of the rule contadicts the applicability outlined in its description. This inconsistency would lead to implementations incorrectly matching labels.

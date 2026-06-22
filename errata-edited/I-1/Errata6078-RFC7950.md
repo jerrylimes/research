@@ -34,6 +34,6 @@ Section 6.4. says:
 
 ```
 
-## Explanation
+## Issue description
 
 The original example contradicts the specified constraints. This inconsistency would lead to implementations incorrectly validating the example.
