@@ -10,17 +10,10 @@ Section B.2 says:
 
             "node-id": "mw-N1",
 
-It should say:
+// state how to fix the above text here
 
-            "node-id": "example:mw-N1",
-
-Notes:
-
-Fixed URI name to follow RFC8407bis guidelines.
-
-See also https://mailarchive.ietf.org/arch/msg/ccamp/OQ-oLx2smsmdC4dcn6aB9i-hWE8/
 ```
 
-## Explanation
+## Issue description
 
-The original example omits prefixes for network and node identifiers, which is inconsistent with the data model. The correction adds the prefixes, resolving the inconsistency.
+The example omits namespace prefixes on identifiers, which is inconsistent with RFC 8407bis guidelines for properly qualified URIs.

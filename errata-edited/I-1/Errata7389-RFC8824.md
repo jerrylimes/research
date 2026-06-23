@@ -8,20 +8,16 @@
 Section 3.1 says:
 
 
-For example, the Uri-Path option is
-mandatory in the request, and it might not be present in the
+For example, the Uri-Path option is
+
+mandatory in the request, and it might not be present in the
+
 response.
 
-It should say:
+// state how to fix the above text here
 
-For example, the Uri-Path option can
-be used in the request, while it is not used in the response.
-
-Notes:
-
-The Uri-Path option is not mandatory in a CoAP request, and it is not supposed to be used in a CoAP response.
 ```
 
-## Explanation
+## Issue description
 
-The original text incorrectly states that the Uri-Path option is mandatory in CoAP requests and implies it might be present in responses. The correction clarifies that Uri-Path is not mandatory in requests and is not used in responses, thus resolving the inconsistencies.
+The original text does not accurately describe the option's usage in both requests and responses.

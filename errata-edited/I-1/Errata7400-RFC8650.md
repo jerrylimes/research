@@ -8,79 +8,62 @@
 Section Appendix A.3 says:
 
 
-   POST /restconf/operations
-        /ietf-subscribed-notifications:establish-subscription
-   {
-      "ietf-subscribed-notifications:input": {
-         "stream": "NETCONF",
-         "stream-xpath-filter":
-           "/ietf-vrrp:vrrp-protocol-error-event[
-             protocol-error-reason='checksum-error']/",
-      }
-   }
-
-       Figure 16: Establishing a Subscription Error Reason via XPath
-
-...
-
-   POST /restconf/operations
-        /ietf-subscribed-notifications:modify-subscription
-   {
-      "ietf-subscribed-notifications:input": {
-         "stream": "NETCONF",
-         "stream-subtree-filter": {
-           "/ietf-vrrp:vrrp-protocol-error-event" : {}
-         }
-      }
-   }
+   POST /restconf/operations
+
+        /ietf-subscribed-notifications:establish-subscription
+
+   {
+
+      "ietf-subscribed-notifications:input": {
+
+         "stream": "NETCONF",
+
+         "stream-xpath-filter":
+
+           "/ietf-vrrp:vrrp-protocol-error-event[
+
+             protocol-error-reason='checksum-error']/",
+
+      }
+
+   }
+
+
+
+       Figure 16: Establishing a Subscription Error Reason via XPath
+
+
+
+...
+
+
+
+   POST /restconf/operations
+
+        /ietf-subscribed-notifications:modify-subscription
+
+   {
+
+      "ietf-subscribed-notifications:input": {
+
+         "stream": "NETCONF",
+
+         "stream-subtree-filter": {
+
+           "/ietf-vrrp:vrrp-protocol-error-event" : {}
+
+         }
+
+      }
+
+   }
+
                 Figure 17: Example "modify-subscription" RPC
 
-It should say:
+// state how to fix the above text here
 
-   POST /restconf/operations
-        /ietf-subscribed-notifications:establish-subscription
-
-   {
-      "ietf-subscribed-notifications:input": {
-         "stream": "NETCONF",
-         "stream-xpath-filter":
-           "/ietf-vrrp:vrrp-protocol-error-event[
-             protocol-error-reason='checksum-error']/"
-      }
-   }
-
-       Figure 16: Establishing a Subscription Error Reason via XPath
-
-...
-
-   POST /restconf/operations
-        /ietf-subscribed-notifications:modify-subscription
-
-   {
-      "ietf-subscribed-notifications:input": {
-         "stream": "NETCONF",
-         "stream-subtree-filter": {
-           "/ietf-vrrp:vrrp-protocol-error-event" : {}
-         }
-      }
-   }
-                Figure 17: Example "modify-subscription" RPC
-
-
-Notes:
-
-* There is a missing CRLF in both figures as per RFC9112:
-
---
-  HTTP-message   = start-line CRLF
-                   *( field-line CRLF )
-                   CRLF
-                   [ message-body ]
---
-
-* The last item in the JSON of figure 16 includes a trailing "," while it shouldn't.
 ```
 
-## Explanation
+## Issue description
 
-The errata report points out missing CRLF in the HTTP messages and a trailing comma in the JSON of Figure 16, both of which are stylistic issues rather than errors that affect the implementation. The corrected figures include the CRLF and remove the trailing comma.
+The errata report points out two stylistic issues that need to be corrected in the JSON figures provided in Appendix A.3 of RFC 8650 according to RFC9112's CRLF requirement.

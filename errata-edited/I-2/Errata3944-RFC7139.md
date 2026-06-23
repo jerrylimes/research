@@ -8,26 +8,24 @@
 Section 5.1 says:
 
 
-      ODUk.ts       Minimum          Nominal          Maximum
-      -----------------------------------------------------------
-      ODU2.ts    1,249,384.632    1,249,409.620     1,249,434.608
-      ODU3.ts    1,254,678.635    1,254,703.729     1,254,728.823
-      ODU4.ts    1,301,683.217    1,301,709.251     1,301,735.285
-
-              Table 1: Actual TS Bit Rate of ODUk (in Kbps)
+      ODUk.ts       Minimum          Nominal          Maximum
+
+      -----------------------------------------------------------
+
+      ODU2.ts    1,249,384.632    1,249,409.620     1,249,434.608
+
+      ODU3.ts    1,254,678.635    1,254,703.729     1,254,728.823
+
+      ODU4.ts    1,301,683.217    1,301,709.251     1,301,735.285
 
 
-It should say:
 
-      ODTUk.ts       Minimum          Nominal           Maximum
-      ------------------------------------------------------------
-      ODTU2.ts    1,249,384.632    1,249,409.620     1,249,434.608
-      ODTU3.ts    1,254,678.635    1,254,703.729     1,254,728.823
-      ODTU4.ts    1,301,683.217    1,301,709.251     1,301,735.285
-
               Table 1: Actual TS Bit Rate of ODUk (in Kbps)
+
+// state how to fix the above text here
+
 ```
 
-## Explanation
+## Issue description
 
-The erratum corrects a typographical error in Table 1, changing "ODUk.ts" to "ODTUk.ts".  While seemingly minor, this inconsistency could lead to implementation issues if an implementation is strictly following the incorrect label in the original text.  The inconsistency is in the naming of the transport units which would directly impact how an implementation would interpret the values in the table.
+Table 1 contains a typo. This inconsistency could lead to implementation issues if an implementation is strictly following the incorrect table in the original text.

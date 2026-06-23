@@ -8,27 +8,20 @@
 Section 4.1 says:
 
 
-     | 0    | x    | x    | x    | 1-7     | Reserved.  Network      |
-     |      |      |      |      |         | Computing System (NCS)  |
-     |      |      |      |      |         | backward compatibility, |
-     |      |      |      |      |         | and includes Nil UUID   |
-     |      |      |      |      |         | as per Section 5.9.     |
+     | 0    | x    | x    | x    | 1-7     | Reserved.  Network      |
 
+     |      |      |      |      |         | Computing System (NCS)  |
 
-It should say:
+     |      |      |      |      |         | backward compatibility, |
 
-     | 0    | x    | x    | x    | 0-7     | Reserved.  Network      |
-     |      |      |      |      |         | Computing System (NCS)  |
-     |      |      |      |      |         | backward compatibility, |
-     |      |      |      |      |         | and includes Nil UUID   |
-     |      |      |      |      |         | as per Section 5.9.     |
+     |      |      |      |      |         | and includes Nil UUID   |
 
+     |      |      |      |      |         | as per Section 5.9.     |
 
-Notes:
+// state how to fix the above text here
 
-This row matches the case where MSB0, MSB1, MSB2, MSB3 are all 0, which would make the variant number 0.
 ```
 
-## Explanation
+## Issue description
 
-The original text incorrectly restricts the version number to 1-7, while version 0 is also valid. The correction changes the range to 0-7, making it consistent with the description and the valid range for version numbers.
+The original text doesn't match the case that it intends to match in Section 4.1.

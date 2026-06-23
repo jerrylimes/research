@@ -8,25 +8,20 @@
 Section 6.1 says:
 
 
-An example
-   Call-Info header field for this would be:
-
-   Call-Info:  https://www.example.com/23sedde3;
+An example
+
+   Call-Info header field for this would be:
+
+
+
+   Call-Info:  https://www.example.com/23sedde3;
+
        purpose="EmergencyCallData.ProviderInfo"
 
-It should say:
+// state how to fix the above text here
 
-An example
-   Call-Info header field for this would be:
-
-   Call-Info:  https://www.example.com/23sedde3;
-       purpose=EmergencyCallData.ProviderInfo
-
-Notes:
-
-Remove double quote on purpose attribute. It's a token type instead of "String" type.
 ```
 
-## Explanation
+## Issue description
 
-The original example includes double quotes around the purpose attribute, which is a token type and should not be quoted. This inconsistency between the example and the specification of the attribute type affects the interpretation and correct implementation of the Call-Info header field.
+The original example assigns a value of incorrect data type to an attribute. This inconsistency between the example and the specification of the attribute type affects the interpretation and correct implementation of the Call-Info header field.

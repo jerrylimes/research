@@ -8,31 +8,18 @@
 Section 18.46.3. says:
 
 
-                                                             Operations
-   other than SEQUENCE, BIND_CONN_TO_SESSION, EXCHANGE_ID,
-   CREATE_SESSION, and DESTROY_SESSION, MUST NOT appear as the first
+                                                             Operations
+
+   other than SEQUENCE, BIND_CONN_TO_SESSION, EXCHANGE_ID,
+
+   CREATE_SESSION, and DESTROY_SESSION, MUST NOT appear as the first
+
    operation in a COMPOUND.
 
-It should say:
+// state how to fix the above text here
 
-                                                             Operations
-   other than SEQUENCE, BIND_CONN_TO_SESSION, EXCHANGE_ID,
-   CREATE_SESSION, DESTROY_SESSION, and DESTROY_CLIENTID, MUST NOT
-   appear as the first operation in a COMPOUND.
-
-Notes:
-
-Section 18.50.3. DESCRIPTION of DESTROY_CLIENTID says
-
-"DESTROY_CLIENTID MAY be preceded with a SEQUENCE"
-
-and also says
-
-"If DESTROY_CLIENTID is not prefixed by SEQUENCE, it MUST be the only operation in the COMPOUND request"
-
-which implies that DESTROY_CLIENTID can appear as the first (and the only) operation in a COMPOUND.
 ```
 
-## Explanation
+## Issue description
 
-The original text incorrectly restricts the first operation in a COMPOUND to exclude DESTROY_CLIENTID, while section 18.50.3 allows it as the first (and only) operation. This discrepancy creates an inconsistency between the general rule and the specific exception for DESTROY_CLIENTID.
+The original text does not take texts in Section 18.50.3 that describes an operation into consideration. This discrepancy creates an inconsistency between the general rule and the specific exception for this operation.
