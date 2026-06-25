@@ -2,6 +2,7 @@
 
 - **RFC Title:** The Constrained Application Protocol (CoAP)
 - **RFC Publication Date:** June 2014
+
 ```
 Section 5.10.7 says:
 

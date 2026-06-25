@@ -8,22 +8,14 @@
 Section 14 says:
 
 
-   o  The restriction applies to the encoding of the Sig_structure, the
+   o  The restriction applies to the encoding of the Sig_structure, the
+
       Enc_structure, and the MAC_structure.
 
-It should say:
+// state how to fix the above text here
 
-   o  The restriction applies to the encoding of the COSE_KDF_Context, 
-      Sig_structure, the Enc_structure, and the MAC_structure.
-
-
-Notes:
-
-When listing the set of structure that need to be canonically encoded, I missed this one.
-
-Verifier Notes: this is being fixed in draft-ietf-cose-rfc8152bis-algs.
 ```
 
-## Explanation
+## Issue description
 
-The original text omits COSE_KDF_Context from the list of structures that require canonical encoding. The correction includes COSE_KDF_Context, making the description consistent with the actual requirement. This inconsistency would affect implementations that do not canonically encode the COSE_KDF_Context structure.
+The original text misses one structure that needs to be canonically encoded.
