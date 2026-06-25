@@ -2,33 +2,25 @@
 
 - **RFC Title:** RESTCONF Protocol
 - **RFC Publication Date:** January 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5756](https://www.rfc-editor.org/errata/eid5756)
 
 ```
 Section 8 says:
 
 
-  module ietf-system {
-    leaf system-reset {
-      type empty;
-    }
-  }
+  module ietf-system {
 
+    leaf system-reset {
 
-It should say:
+      type empty;
 
-  module ietf-system {
-    leaf system-restart {
-      type empty;
-    }
-  }
+    }
 
+  }
 
-Notes:
+// state how to fix the above text here
 
-The section on page 84 discusses the "system-restart" RPC from RFC 7317, but the conceptual example has "system-reset".  Fix: s/system-reset/system-restart/.
 ```
 
-## Explanation
+## Issue description
 
-The example YANG module in Section 8 uses the name "system-reset" for an RPC operation, which is inconsistent with the name "system-restart" discussed and referenced earlier in the RFC from RFC 7317.  This inconsistency could lead to confusion and incorrect implementation of the system restart functionality.
+The example YANG module in Section 8 uses the wrong name that is inconsistent with the name "system-restart" discussed and referenced earlier for an RPC operation in the RFC from RFC 7317.  This inconsistency could lead to confusion and incorrect implementation of the system restart functionality.

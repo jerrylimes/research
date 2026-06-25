@@ -2,7 +2,6 @@
 
 - **RFC Title:** The Constrained Application Protocol (CoAP)
 - **RFC Publication Date:** June 2014
-- Link to original errata report: [rfc-editor.org/errata/eid5078](https://www.rfc-editor.org/errata/eid5078)
 
 ```
 Section 7.2.1 says:

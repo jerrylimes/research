@@ -8,17 +8,16 @@
 Section 2.1.1 says:
 
 
-   DNS records that would be
-   classified "indeterminate" in the sense of [RFC4035] are simply
+   DNS records that would be
+
+   classified "indeterminate" in the sense of [RFC4035] are simply
+
    classified as "insecure".
 
-It should say:
+// state how to fix the above text here
 
-   DNS records that would be
-   classified "indeterminate" in the sense of [RFC4033] are simply
-   classified as "insecure".
 ```
 
-## Explanation
+## Issue description
 
-The erratum points out an incorrect reference in Section 2.1.1 of RFC 7672. The original text refers to RFC4035, while the correction points to RFC4033. This is a factual error that directly impacts implementation and understanding of the specification. Therefore, it's classified as INCONSISTENT.
+The erratum contains an incorrect reference. This is a factual error that directly impacts implementation and understanding of the specification.

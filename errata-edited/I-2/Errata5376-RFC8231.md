@@ -8,25 +8,20 @@
 Section 7.2 says:
 
 
-In case of SRP-ID-number wrapping, the last
-   SRP-ID-number before the wrapping MUST be explicitly acknowledged, to
-   avoid a situation where SRP-ID-numbers remain unacknowledged after
-   the wrap.  This means that the PCC may need to issue two PCUpd
+In case of SRP-ID-number wrapping, the last
+
+   SRP-ID-number before the wrapping MUST be explicitly acknowledged, to
+
+   avoid a situation where SRP-ID-numbers remain unacknowledged after
+
+   the wrap.  This means that the PCC may need to issue two PCUpd
+
    messages on detecting a wrap.
 
-It should say:
+// state how to fix the above text here
 
-In case of SRP-ID-number wrapping, the last
-   SRP-ID-number before the wrapping MUST be explicitly acknowledged, to
-   avoid a situation where SRP-ID-numbers remain unacknowledged after
-   the wrap.  This means that the PCC may need to issue two PCRpt
-   messages on detecting a wrap.
-
-Notes:
-
-incase of srp id wrap, once PCC detects it, PCC needs to issue PCRpt message not PCUpd message.
 ```
 
-## Explanation
+## Issue description
 
-The original text incorrectly states that the PCC should issue PCUpd messages to acknowledge SRP-ID-number wrapping. The correction specifies that PCRpt messages should be used instead, which is consistent with the protocol's operation. This inconsistency would affect the handling of SRP-ID-number wrapping and could lead to unacknowledged SRP-ID-numbers.
+The original text does not correctly state what the PPC should issue to acknowledge SRP-ID-number wrapping. This inconsistency would affect the handling of SRP-ID-number wrapping and could lead to unacknowledged SRP-ID-numbers.
