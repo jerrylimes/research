@@ -2,7 +2,6 @@
 
 - **RFC Title:** BGP Overlay Services Based on Segment Routing over IPv6 (SRv6)
 - **RFC Publication Date:** July 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7817](https://www.rfc-editor.org/errata/eid7817)
 
 ```
 Section 3.2.1 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** A YANG Data Model for Layer 2 Virtual Private Network (L2VPN) Service Delivery
 - **RFC Publication Date:** October 2018
-- Link to original errata report: [rfc-editor.org/errata/eid6922](https://www.rfc-editor.org/errata/eid6922)
 
 ```
 Section 5.5.2.1 says:

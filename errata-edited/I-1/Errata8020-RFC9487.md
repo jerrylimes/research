@@ -2,7 +2,6 @@
 
 - **RFC Title:** Export of Segment Routing over IPv6 Information in IP Flow Information Export (IPFIX)
 - **RFC Publication Date:** November 2023
-- Link to original errata report: [rfc-editor.org/errata/eid8020](https://www.rfc-editor.org/errata/eid8020)
 
 ```
 Section A.2 says:

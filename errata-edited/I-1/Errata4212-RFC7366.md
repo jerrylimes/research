@@ -2,7 +2,6 @@
 
 - **RFC Title:** Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
 - **RFC Publication Date:** September 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4212](https://www.rfc-editor.org/errata/eid4212)
 
 ```
 Section 3 says:

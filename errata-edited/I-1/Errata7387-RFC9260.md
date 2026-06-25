@@ -2,7 +2,6 @@
 
 - **RFC Title:** Stream Control Transmission Protocol
 - **RFC Publication Date:** June 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7387](https://www.rfc-editor.org/errata/eid7387)
 
 ```
 Section 5.2.4.1 says:

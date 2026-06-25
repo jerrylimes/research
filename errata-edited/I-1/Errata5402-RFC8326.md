@@ -2,7 +2,6 @@
 
 - **RFC Title:** Graceful BGP Session Shutdown
 - **RFC Publication Date:** March 2018
-- Link to original errata report: [rfc-editor.org/errata/eid5402](https://www.rfc-editor.org/errata/eid5402)
 
 ```
 Section C.2.2. says:

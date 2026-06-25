@@ -2,7 +2,6 @@
 
 - **RFC Title:** Dynamic Subscription to YANG Events and Datastores over RESTCONF
 - **RFC Publication Date:** November 2019
-- Link to original errata report: [rfc-editor.org/errata/eid7400](https://www.rfc-editor.org/errata/eid7400)
 
 ```
 Section Appendix A.3 says:

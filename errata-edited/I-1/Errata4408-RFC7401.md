@@ -2,7 +2,6 @@
 
 - **RFC Title:** Host Identity Protocol Version 2 (HIPv2)
 - **RFC Publication Date:** April 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4408](https://www.rfc-editor.org/errata/eid4408)
 
 ```
 Section 4.4.4 says:

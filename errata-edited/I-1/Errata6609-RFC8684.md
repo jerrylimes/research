@@ -2,7 +2,6 @@
 
 - **RFC Title:** TCP Extensions for Multipath Operation with Multiple Addresses
 - **RFC Publication Date:** March 2020
-- Link to original errata report: [rfc-editor.org/errata/eid6609](https://www.rfc-editor.org/errata/eid6609)
 
 ```
 Section B.3 says:

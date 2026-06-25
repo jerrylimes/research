@@ -2,7 +2,6 @@
 
 - **RFC Title:** Internet Key Exchange Protocol Version 2 (IKEv2)
 - **RFC Publication Date:** October 2014
-- Link to original errata report: [rfc-editor.org/errata/eid6940](https://www.rfc-editor.org/errata/eid6940)
 
 ```
 Section .10 says:

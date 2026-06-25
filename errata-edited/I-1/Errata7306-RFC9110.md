@@ -1,8 +1,7 @@
-# Errata 7306 - RFC 97
+# Errata 7306 - RFC 9110
 
 - **RFC Title:** HTTP Semantics
 - **RFC Publication Date:** June 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7306](https://www.rfc-editor.org/errata/eid7306)
 
 ```
 Section 14.1.1 says:

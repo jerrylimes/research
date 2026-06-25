@@ -2,7 +2,6 @@
 
 - **RFC Title:** Universally Unique IDentifiers (UUIDs)
 - **RFC Publication Date:** May 2024
-- Link to original errata report: [rfc-editor.org/errata/eid7958](https://www.rfc-editor.org/errata/eid7958)
 
 ```
 Section 4.1 says:

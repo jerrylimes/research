@@ -2,7 +2,6 @@
 
 - **RFC Title:** Representing Label Generation Rulesets Using XML
 - **RFC Publication Date:** August 2016
-- Link to original errata report: [rfc-editor.org/errata/eid5986](https://www.rfc-editor.org/errata/eid5986)
 
 ```
 Section 6.3.1 says:

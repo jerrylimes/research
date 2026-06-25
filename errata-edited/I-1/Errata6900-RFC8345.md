@@ -2,7 +2,6 @@
 
 - **RFC Title:** A YANG Data Model for Network Topologies
 - **RFC Publication Date:** March 2018
-- Link to original errata report: [rfc-editor.org/errata/eid6900](https://www.rfc-editor.org/errata/eid6900)
 
 ```
 Section Appendix C says:

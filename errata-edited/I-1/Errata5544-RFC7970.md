@@ -2,7 +2,6 @@
 
 - **RFC Title:** The Incident Object Description Exchange Format Version 2
 - **RFC Publication Date:** November 2016
-- Link to original errata report: [rfc-editor.org/errata/eid5544](https://www.rfc-editor.org/errata/eid5544)
 
 ```
 Section 8 says:

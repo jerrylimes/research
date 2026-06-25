@@ -2,7 +2,6 @@
 
 - **RFC Title:** Internet Message Access Protocol (IMAP) - Version 4rev2
 - **RFC Publication Date:** August 2021
-- Link to original errata report: [rfc-editor.org/errata/eid7323](https://www.rfc-editor.org/errata/eid7323)
 
 ```
 Section 6.4.4.4. says:

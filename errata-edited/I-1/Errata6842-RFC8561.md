@@ -2,7 +2,6 @@
 
 - **RFC Title:** A YANG Data Model for Microwave Radio Link
 - **RFC Publication Date:** June 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6842](https://www.rfc-editor.org/errata/eid6842)
 
 ```
 Section Annex A.3 says:

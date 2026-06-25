@@ -2,7 +2,6 @@
 
 - **RFC Title:** RTP Clock Source Signalling
 - **RFC Publication Date:** June 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4450](https://www.rfc-editor.org/errata/eid4450)
 
 ```
 Section 4.8 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Network File System (NFS) Version 4 Protocol
 - **RFC Publication Date:** March 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4471](https://www.rfc-editor.org/errata/eid4471)
 
 ```
 Section 16.10.4. says:

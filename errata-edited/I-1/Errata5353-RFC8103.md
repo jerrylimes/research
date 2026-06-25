@@ -4,7 +4,6 @@
 
 - **RFC Title:** Using ChaCha20-Poly1305 Authenticated Encryption in the Cryptographic Message Syntax (CMS)
 - **RFC Publication Date:** February 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5353](https://www.rfc-editor.org/errata/eid5353)
 
 ```
 Section 6 says:

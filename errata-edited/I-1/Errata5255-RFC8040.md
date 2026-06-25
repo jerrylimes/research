@@ -2,7 +2,6 @@
 
 - **RFC Title:** RESTCONF Protocol
 - **RFC Publication Date:** January 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5255](https://www.rfc-editor.org/errata/eid5255)
 
 ```
 Section 3.5.3. says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Authenticated Identity Management in the Session Initiation Protocol (SIP)
 - **RFC Publication Date:** February 2018
-- Link to original errata report: [rfc-editor.org/errata/eid5715](https://www.rfc-editor.org/errata/eid5715)
 
 ```
 Section 4.1 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Sieve Email Filtering: Delivering to Special-Use Mailboxes
 - **RFC Publication Date:** May 2019
-- Link to original errata report: [rfc-editor.org/errata/eid5877](https://www.rfc-editor.org/errata/eid5877)
 
 ```
 Section 6 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Free Lossless Audio Codec (FLAC)
 - **RFC Publication Date:** December 2024
-- Link to original errata report: [rfc-editor.org/errata/eid8256](https://www.rfc-editor.org/errata/eid8256)
 
 ```
 Section 8.2 says:

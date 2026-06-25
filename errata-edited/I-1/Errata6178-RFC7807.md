@@ -2,7 +2,6 @@
 
 - **RFC Title:** Problem Details for HTTP APIs
 - **RFC Publication Date:** March 2016
-- Link to original errata report: [rfc-editor.org/errata/eid6178](https://www.rfc-editor.org/errata/eid6178)
 
 ```
 Section 3 says:

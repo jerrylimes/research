@@ -2,7 +2,6 @@
 
 - **RFC Title:** Mapping of Address and Port using Translation (MAP-T)
 - **RFC Publication Date:** July 2015
-- Link to original errata report: [rfc-editor.org/errata/eid5324](https://www.rfc-editor.org/errata/eid5324)
 
 ```
 Section Appendix A says:

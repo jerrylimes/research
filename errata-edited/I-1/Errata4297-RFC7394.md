@@ -2,7 +2,6 @@
 
 - **RFC Title:** Definition of Time to Live TLV for LSP-Ping Mechanisms
 - **RFC Publication Date:** November 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4297](https://www.rfc-editor.org/errata/eid4297)
 
 ```
 Section 3.1 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Dissemination of Flow Specification Rules for IPv6
 - **RFC Publication Date:** December 2020
-- Link to original errata report: [rfc-editor.org/errata/eid7571](https://www.rfc-editor.org/errata/eid7571)
 
 ```
 Section 3.8.1 says:

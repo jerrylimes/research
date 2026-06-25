@@ -2,7 +2,6 @@
 
 - **RFC Title:** GMPLS Signaling Extensions for Control of Evolving G.709 Optical Transport Networks
 - **RFC Publication Date:** March 2014
-- Link to original errata report: [rfc-editor.org/errata/eid3944](https://www.rfc-editor.org/errata/eid3944)
 
 ```
 Section 5.1 says:

@@ -4,7 +4,6 @@
 
 - **RFC Title:** Content Delivery Network Interconnection (CDNI) Control Interface / Triggers
 - **RFC Publication Date:** December 2016
-- Link to original errata report: [rfc-editor.org/errata/eid5053](https://www.rfc-editor.org/errata/eid5053)
 
 ```
 Section 5.2.3 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** A Voucher Artifact for Bootstrapping Protocols
 - **RFC Publication Date:** May 2018
-- Link to original errata report: [rfc-editor.org/errata/eid6646](https://www.rfc-editor.org/errata/eid6646)
 
 ```
 Section 5.2 says:

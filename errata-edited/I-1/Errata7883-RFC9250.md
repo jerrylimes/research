@@ -2,7 +2,6 @@
 
 - **RFC Title:** DNS over Dedicated QUIC Connections
 - **RFC Publication Date:** May 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7883](https://www.rfc-editor.org/errata/eid7883)
 
 ```
 Section 7.5 says:

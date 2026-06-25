@@ -2,7 +2,6 @@
 
 - **RFC Title:** Key Exchange (KEX) Method Updates and Recommendations for Secure Shell (SSH)
 - **RFC Publication Date:** January 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7799](https://www.rfc-editor.org/errata/eid7799)
 
 ```
 Section 1.2.1 says:

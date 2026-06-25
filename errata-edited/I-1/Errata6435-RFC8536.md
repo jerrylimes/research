@@ -2,7 +2,6 @@
 
 - **RFC Title:** The Time Zone Information Format (TZif)
 - **RFC Publication Date:** February 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6435](https://www.rfc-editor.org/errata/eid6435)
 
 ```
 Section 5.2 says:

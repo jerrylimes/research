@@ -2,7 +2,6 @@
 
 - **RFC Title:** Negotiating Human Language in Real-Time Communications
 - **RFC Publication Date:** May 2018
-- Link to original errata report: [rfc-editor.org/errata/eid5374](https://www.rfc-editor.org/errata/eid5374)
 
 ```
 Section 5.4. says:

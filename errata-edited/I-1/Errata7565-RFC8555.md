@@ -2,8 +2,6 @@
 
 - **RFC Title:** Automatic Certificate Management Environment (ACME)
 - **RFC Publication Date:** March 2019
-- Link to original errata report: [rfc-editor.org/errata/eid7565](https://www.rfc-editor.org/errata/eid7565)
-
 ```
 Section 8.1 says:
 

@@ -2,7 +2,6 @@
 
 - **RFC Title:** An Incident Object Description Exchange Format (IODEF) Extension for Structured Cybersecurity Information
 - **RFC Publication Date:** April 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4517](https://www.rfc-editor.org/errata/eid4517)
 
 ```
 Section 5.2 says:

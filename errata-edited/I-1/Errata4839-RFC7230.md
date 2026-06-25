@@ -2,7 +2,6 @@
 
 - **RFC Title:** Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing
 - **RFC Publication Date:** June 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4839](https://www.rfc-editor.org/errata/eid4839)
 
 ```
 Section 4 says:

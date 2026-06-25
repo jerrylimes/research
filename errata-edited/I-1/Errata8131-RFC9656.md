@@ -2,7 +2,6 @@
 
 - **RFC Title:** A YANG Data Model for Microwave Topology
 - **RFC Publication Date:** September 2024
-- Link to original errata report: [rfc-editor.org/errata/eid8131](https://www.rfc-editor.org/errata/eid8131)
 
 ```
 Section A.1 says:

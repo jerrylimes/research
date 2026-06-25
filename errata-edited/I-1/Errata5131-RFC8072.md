@@ -2,7 +2,6 @@
 
 - **RFC Title:** YANG Patch Media Type
 - **RFC Publication Date:** February 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5131](https://www.rfc-editor.org/errata/eid5131)
 
 ```
 Section 2.2 says:

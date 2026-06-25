@@ -2,7 +2,6 @@
 
 - **RFC Title:** The JSON Meta Application Protocol (JMAP)
 - **RFC Publication Date:** July 2019
-- Link to original errata report: [rfc-editor.org/errata/eid5791](https://www.rfc-editor.org/errata/eid5791)
 
 ```
 Section 2.1 says:

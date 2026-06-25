@@ -2,7 +2,6 @@
 
 - **RFC Title:** Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing
 - **RFC Publication Date:** December 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6753](https://www.rfc-editor.org/errata/eid6753)
 
 ```
 Section 4.3.1 says:

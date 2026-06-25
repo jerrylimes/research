@@ -2,7 +2,6 @@
 
 - **RFC Title:** Event Publishing Extensions to iCalendar
 - **RFC Publication Date:** August 2021
-- Link to original errata report: [rfc-editor.org/errata/eid7381](https://www.rfc-editor.org/errata/eid7381)
 
 ```
 Section 7.2 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Tunnel Extensible Authentication Protocol (TEAP) Version 1
 - **RFC Publication Date:** May 2014
-- Link to original errata report: [rfc-editor.org/errata/eid5765](https://www.rfc-editor.org/errata/eid5765)
 
 ```
 Section 4.2.2 says:

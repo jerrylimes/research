@@ -2,7 +2,6 @@
 
 - **RFC Title:** Secure Zero Touch Provisioning (SZTP)
 - **RFC Publication Date:** April 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6684](https://www.rfc-editor.org/errata/eid6684)
 
 ```
 Section 8.1 says:

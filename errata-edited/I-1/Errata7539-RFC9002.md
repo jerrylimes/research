@@ -2,7 +2,6 @@
 
 - **RFC Title:** QUIC Loss Detection and Congestion Control
 - **RFC Publication Date:** May 2021
-- Link to original errata report: [rfc-editor.org/errata/eid7539](https://www.rfc-editor.org/errata/eid7539)
 
 ```
 Section 5. says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Detecting Multiprotocol Label Switched (MPLS) Data-Plane Failures
 - **RFC Publication Date:** March 2017
-- Link to original errata report: [rfc-editor.org/errata/eid7639](https://www.rfc-editor.org/errata/eid7639)
 
 ```
 Section 4.5 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Network File System (NFS) Version 4 Minor Version 1 Protocol
 - **RFC Publication Date:** August 2020
-- Link to original errata report: [rfc-editor.org/errata/eid7386](https://www.rfc-editor.org/errata/eid7386)
 
 ```
 Section 18.46.3. says:

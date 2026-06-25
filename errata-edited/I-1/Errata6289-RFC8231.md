@@ -2,7 +2,6 @@
 
 - **RFC Title:** Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE
 - **RFC Publication Date:** September 2017
-- Link to original errata report: [rfc-editor.org/errata/eid6289](https://www.rfc-editor.org/errata/eid6289)
 
 ```
 Section 7.3.2 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Personal Assertion Token (PaSSporT) Extension for Signature-based Handling of Asserted information using toKENs (SHAKEN)
 - **RFC Publication Date:** May 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6656](https://www.rfc-editor.org/errata/eid6656)
 
 ```
 Section 6 says:

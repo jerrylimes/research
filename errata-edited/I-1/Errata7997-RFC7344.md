@@ -2,7 +2,6 @@
 
 - **RFC Title:** Automating DNSSEC Delegation Trust Maintenance
 - **RFC Publication Date:** September 2014
-- Link to original errata report: [rfc-editor.org/errata/eid7997](https://www.rfc-editor.org/errata/eid7997)
 
 ```
 Section 6.2.1 says:

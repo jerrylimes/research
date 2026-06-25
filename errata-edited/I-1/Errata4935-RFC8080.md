@@ -2,7 +2,6 @@
 
 - **RFC Title:** Edwards-Curve Digital Security Algorithm (EdDSA) for DNSSEC
 - **RFC Publication Date:** February 2017
-- Link to original errata report: [rfc-editor.org/errata/eid4935](https://www.rfc-editor.org/errata/eid4935)
 
 ```
 Section 6 says:

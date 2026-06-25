@@ -2,7 +2,6 @@
 
 - **RFC Title:** CBOR Object Signing and Encryption (COSE)
 - **RFC Publication Date:** July 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5545](https://www.rfc-editor.org/errata/eid5545)
 
 ```
 Section 7.1 says:

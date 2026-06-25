@@ -2,7 +2,6 @@
 
 - **RFC Title:** Returning Values from Forms: multipart/form-data
 - **RFC Publication Date:** July 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4676](https://www.rfc-editor.org/errata/eid4676)
 
 ```
 Section 4.6. says:

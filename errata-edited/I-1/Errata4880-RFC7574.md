@@ -2,7 +2,6 @@
 
 - **RFC Title:** Peer-to-Peer Streaming Peer Protocol (PPSPP)
 - **RFC Publication Date:** July 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4880](https://www.rfc-editor.org/errata/eid4880)
 
 ```
 Section 7.5 says:

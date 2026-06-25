@@ -2,7 +2,6 @@
 
 - **RFC Title:** The YANG 1.1 Data Modeling Language
 - **RFC Publication Date:** August 2016
-- Link to original errata report: [rfc-editor.org/errata/eid6078](https://www.rfc-editor.org/errata/eid6078)
 
 ```
 Section 6.4. says:

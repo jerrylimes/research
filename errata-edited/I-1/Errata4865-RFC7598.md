@@ -2,7 +2,6 @@
 
 - **RFC Title:** DHCPv6 Options for Configuration of Softwire Address and Port-Mapped Clients
 - **RFC Publication Date:** July 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4865](https://www.rfc-editor.org/errata/eid4865)
 
 ```
 Section 4.3 says:

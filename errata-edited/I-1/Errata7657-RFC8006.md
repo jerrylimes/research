@@ -2,7 +2,6 @@
 
 - **RFC Title:** Content Delivery Network Interconnection (CDNI) Metadata
 - **RFC Publication Date:** December 2016
-- Link to original errata report: [rfc-editor.org/errata/eid7657](https://www.rfc-editor.org/errata/eid7657)
 
 ```
 Section 6.10 says:

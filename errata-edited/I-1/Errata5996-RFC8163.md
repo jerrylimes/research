@@ -2,7 +2,6 @@
 
 - **RFC Title:** Transmission of IPv6 over Master-Slave/Token-Passing (MS/TP) Networks
 - **RFC Publication Date:** May 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5996](https://www.rfc-editor.org/errata/eid5996)
 
 ```
 Section Appendix B. says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Additional Data Related to an Emergency Call
 - **RFC Publication Date:** July 2016
-- Link to original errata report: [rfc-editor.org/errata/eid6849](https://www.rfc-editor.org/errata/eid6849)
 
 ```
 Section 11.7 says:

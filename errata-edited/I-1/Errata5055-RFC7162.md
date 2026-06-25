@@ -2,7 +2,6 @@
 
 - **RFC Title:** IMAP Extensions: Quick Flag Changes Resynchronization (CONDSTORE) and Quick Mailbox Resynchronization (QRESYNC)
 - **RFC Publication Date:** May 2014
-- Link to original errata report: [rfc-editor.org/errata/eid5055](https://www.rfc-editor.org/errata/eid5055)
 
 ```
 Section 3.1.2.1 says:

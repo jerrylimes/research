@@ -2,7 +2,6 @@
 
 - **RFC Title:** Database of Long-Lived Symmetric Cryptographic Keys
 - **RFC Publication Date:** April 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4016](https://www.rfc-editor.org/errata/eid4016)
 
 ```
 Section 2 says:

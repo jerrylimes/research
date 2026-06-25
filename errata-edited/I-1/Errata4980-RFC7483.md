@@ -2,7 +2,6 @@
 
 - **RFC Title:** JSON Responses for the Registration Data Access Protocol (RDAP)
 - **RFC Publication Date:** March 2015
-- Link to original errata report: [rfc-editor.org/errata/eid4980](https://www.rfc-editor.org/errata/eid4980)
 
 ```
 Section 5.5 says:

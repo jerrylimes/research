@@ -2,7 +2,6 @@
 
 - **RFC Title:** Redacted Fields in the Registration Data Access Protocol (RDAP) Response
 - **RFC Publication Date:** March 2024
-- Link to original errata report: [rfc-editor.org/errata/eid7876](https://www.rfc-editor.org/errata/eid7876)
 
 ```
 Section 4.2 says:

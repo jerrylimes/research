@@ -2,7 +2,6 @@
 
 - **RFC Title:** LDP Extensions for Optimized MAC Address Withdrawal in a Hierarchical Virtual Private LAN Service (H-VPLS)
 - **RFC Publication Date:** September 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4380](https://www.rfc-editor.org/errata/eid4380)
 
 ```
 Section 5.2 says:

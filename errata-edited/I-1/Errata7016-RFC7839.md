@@ -2,7 +2,6 @@
 
 - **RFC Title:** Access-Network-Identifier Option in DHCP
 - **RFC Publication Date:** June 2016
-- Link to original errata report: [rfc-editor.org/errata/eid7016](https://www.rfc-editor.org/errata/eid7016)
 
 ```
 Section 4.4.1 says:

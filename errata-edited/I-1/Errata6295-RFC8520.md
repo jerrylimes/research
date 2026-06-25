@@ -2,7 +2,6 @@
 
 - **RFC Title:** Manufacturer Usage Description Specification
 - **RFC Publication Date:** March 2019
-- Link to original errata report: [rfc-editor.org/errata/eid6295](https://www.rfc-editor.org/errata/eid6295)
 
 ```
 Section 4.1 says:

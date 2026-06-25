@@ -2,7 +2,6 @@
 
 - **RFC Title:** Protocol Independent Multicast - Sparse Mode (PIM-SM): Protocol Specification (Revised)
 - **RFC Publication Date:** March 2016
-- Link to original errata report: [rfc-editor.org/errata/eid5342](https://www.rfc-editor.org/errata/eid5342)
 
 ```
 Section 4.4.2 says:

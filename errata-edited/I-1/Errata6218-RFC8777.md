@@ -2,7 +2,6 @@
 
 - **RFC Title:** DNS Reverse IP Automatic Multicast Tunneling (AMT) Discovery
 - **RFC Publication Date:** April 2020
-- Link to original errata report: [rfc-editor.org/errata/eid6218](https://www.rfc-editor.org/errata/eid6218)
 
 ```
 Section 4.3.2 says:

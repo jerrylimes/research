@@ -2,7 +2,6 @@
 
 - **RFC Title:** Managing DS Records from the Parent via CDS/CDNSKEY
 - **RFC Publication Date:** March 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5049](https://www.rfc-editor.org/errata/eid5049)
 
 ```
 Section 4 says:

@@ -2,7 +2,6 @@
 
 - **RFC Title:** Home Networking Control Protocol
 - **RFC Publication Date:** April 2016
-- Link to original errata report: [rfc-editor.org/errata/eid5021](https://www.rfc-editor.org/errata/eid5021)
 
 ```
 Section says:

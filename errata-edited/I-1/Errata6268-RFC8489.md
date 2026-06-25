@@ -2,7 +2,6 @@
 
 - **RFC Title:** Session Traversal Utilities for NAT (STUN)
 - **RFC Publication Date:** February 2020
-- Link to original errata report: [rfc-editor.org/errata/eid6268](https://www.rfc-editor.org/errata/eid6268)
 
 ```
 Section Appendix B.1 says:

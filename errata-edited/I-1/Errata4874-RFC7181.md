@@ -2,7 +2,6 @@
 
 - **RFC Title:** The Optimized Link State Routing Protocol Version 2
 - **RFC Publication Date:** April 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4874](https://www.rfc-editor.org/errata/eid4874)
 
 ```
 Section 17.1 says:

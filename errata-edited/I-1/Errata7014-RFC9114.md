@@ -2,7 +2,6 @@
 
 - **RFC Title:** HTTP/3
 - **RFC Publication Date:** June 2022
-- Link to original errata report: [rfc-editor.org/errata/eid7014](https://www.rfc-editor.org/errata/eid7014)
 
 ```
 Section 4.3.1 says:

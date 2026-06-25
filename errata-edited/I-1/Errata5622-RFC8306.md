@@ -2,7 +2,6 @@
 
 - **RFC Title:** Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths
 - **RFC Publication Date:** November 2017
-- Link to original errata report: [rfc-editor.org/errata/eid5622](https://www.rfc-editor.org/errata/eid5622)
 
 ```
 Section 3.13 says:

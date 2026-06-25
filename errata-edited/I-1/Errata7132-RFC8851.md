@@ -2,7 +2,6 @@
 
 - **RFC Title:** RTP Payload Format Restrictions
 - **RFC Publication Date:** January 2021
-- Link to original errata report: [rfc-editor.org/errata/eid7132](https://www.rfc-editor.org/errata/eid7132)
 
 ```
 Section 10 says:

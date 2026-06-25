@@ -2,7 +2,6 @@
 
 - **RFC Title:** Return Path Specified Label Switched Path (LSP) Ping
 - **RFC Publication Date:** January 2014
-- Link to original errata report: [rfc-editor.org/errata/eid4197](https://www.rfc-editor.org/errata/eid4197)
 
 ```
 Section 4 says:

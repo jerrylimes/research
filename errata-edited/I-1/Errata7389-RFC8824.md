@@ -2,7 +2,6 @@
 
 - **RFC Title:** Static Context Header Compression (SCHC) for the Constrained Application Protocol (CoAP)
 - **RFC Publication Date:** June 2021
-- Link to original errata report: [rfc-editor.org/errata/eid7389](https://www.rfc-editor.org/errata/eid7389)
 
 ```
 Section 3.1 says:

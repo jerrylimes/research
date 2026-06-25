@@ -2,7 +2,6 @@
 
 - **RFC Title:** The Network Access Identifier
 - **RFC Publication Date:** May 2015
-- Link to original errata report: [rfc-editor.org/errata/eid8105](https://www.rfc-editor.org/errata/eid8105)
 
 ```
 Section 3.4 says:
