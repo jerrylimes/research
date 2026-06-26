@@ -2,31 +2,23 @@
 
 - **RFC Title:** Virtual Router Redundancy Protocol (VRRP) Version 3 for IPv4 and IPv6
 - **RFC Publication Date:** April 2024
-- Link to original errata report: [rfc-editor.org/errata/eid7949](https://www.rfc-editor.org/errata/eid7949)
 
 ```
 Section 6.4.2 says:
 
 
-         o  For each IPv4 address associated with the Virtual Router,
-            broadcast a gratuitous ARP message containing the Virtual
-            Router MAC address and with the target link-layer address
-            set to the Virtual Router MAC address.
+         o  For each IPv4 address associated with the Virtual Router,
 
+            broadcast a gratuitous ARP message containing the Virtual
 
-It should say:
+            Router MAC address and with the target link-layer address
 
-         o  For each IPv4 address associated with the Virtual Router,
-            broadcast a gratuitous ARP message containing the Virtual
-            Router IPv4 address and with the target link-layer address
-            set to the Virtual Router MAC address.
+            set to the Virtual Router MAC address.
 
+// state how to fix the above text here
 
-Notes:
-
-The MAC address is specified instead of the IPv4 address.
 ```
 
 ## Explanation
 
-The original text incorrectly specifies the MAC address in the gratuitous ARP message. The correction uses the IPv4 address, which is consistent with the gratuitous ARP protocol. This inconsistency would lead to implementations generating incorrect gratuitous ARP messages.
+The original text uses the wrong type of address in the gratuitous ARP message. This inconsistency would lead to implementations generating incorrect gratuitous ARP messages.

@@ -28,3 +28,7 @@ If the model is not producing the correct fix we'd know what to do given this.
 ### 5945
 
 is extremely long and so good luck LLM.
+
+### 7780
+
+contains an incorrect Explanation. Nowhere in the "It should say" and "Notes" section did it say that **both** the client and the server must treat the GOAWAY frame as sth. It's either the client or the endpoint.
