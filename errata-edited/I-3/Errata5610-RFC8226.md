@@ -2,25 +2,19 @@
 
 - **RFC Title:** Secure Telephone Identity Credentials: Certificates
 - **RFC Publication Date:** February 2018
-- Link to original errata report: [rfc-editor.org/errata/eid5610](https://www.rfc-editor.org/errata/eid5610)
 
 ```
 Section Appendix A says:
 
 
-    JWTClaimPermittedValuesList ::= SEQUENCE SIZE (1..MAX) Of
+    JWTClaimPermittedValuesList ::= SEQUENCE SIZE (1..MAX) Of
+
                                       JWTClaimPermittedValues
 
-It should say:
+// state how to fix the above text here
 
-    JWTClaimPermittedValuesList ::= SEQUENCE SIZE (1..MAX) OF
-                                      JWTClaimPermittedValues
-
-Notes:
-
-The ASN.1 Compiler require "OF" to be all capital letters.
 ```
 
-## Explanation
+## Issue description
 
-This is a syntax error in the ASN.1 module.
+There is a syntax error in the ASN.1 module.

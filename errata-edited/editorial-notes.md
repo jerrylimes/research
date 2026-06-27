@@ -27,8 +27,20 @@ If the model is not producing the correct fix we'd know what to do given this.
 
 ### 5945
 
-is extremely long and so good luck LLM.
+is extremely long so good luck LLM.
 
 ### 7780
 
 contains an incorrect Explanation. Nowhere in the "It should say" and "Notes" section did it say that **both** the client and the server must treat the GOAWAY frame as sth. It's either the client or the endpoint.
+
+## Errata in U-1
+
+### 4439
+
+I hope the model knows how to find the `parameter` rule from RFC 7231 as a replacement because I sure as hell can't.
+
+## Errata in U-2
+
+## 5638
+
+What counts as an under-specification and what counts as an inconsistency? This one really feels like an inconsistency to me.
