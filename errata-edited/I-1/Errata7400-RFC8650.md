@@ -65,4 +65,4 @@ Section Appendix A.3 says:
 
 ## Issue description
 
-The errata report points out two stylistic issues that need to be corrected in the JSON figures provided in Appendix A.3 of RFC 8650 according to RFC9112's CRLF requirement.
+The errata report points out two stylistic issues that need to be corrected in the JSON figures provided in Appendix A.3 of RFC 8650.

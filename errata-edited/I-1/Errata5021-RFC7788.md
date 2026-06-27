@@ -16,4 +16,4 @@ HNCP uses opaque 32-bit node identifiers
 
 ## Issue description
 
-The original text presents a contradiction with Section 9's definition of the DNCP_NODE_IDENTIFIER_LENGTH field. This inconsistency creates a conflict between the two specifications, leading to potential incompatibility between implementations.
+The original text presents a contradiction with Section 9 of RFC 7787's definition of the DNCP_NODE_IDENTIFIER_LENGTH field. This inconsistency creates a conflict between the two specifications, leading to potential incompatibility between implementations.

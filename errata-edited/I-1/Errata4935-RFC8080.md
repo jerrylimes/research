@@ -223,4 +223,4 @@ example.com. 3600 IN RRSIG MX 3 3600 (
 
 ## Issue description
 
-Two issues are present in the original text. 1. The four examples are not correctly identifying algorithms. 2. The label counting implementation is incorrect in the RRSIG examples. Both directly impact the implementation and verification of signatures, causing the examples to be unimplementable as presented. This constitutes an inconsistency affecting critical implementation details.
+Two issues are present in the original text. 1. The four examples in the RRSIG records are not correctly identifying algorithms. 2. The label counting implementation is incorrect in the RRSIG examples. Both directly impact the implementation and verification of signatures, causing the examples to be unimplementable as presented. This constitutes an inconsistency affecting critical implementation details.

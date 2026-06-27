@@ -43,16 +43,6 @@ In Section 5.3:
 
 "unicodeName" : "foo.example"
 
-It should say:
-
-In Section 5.2:
-
-
-
-"ldhName" : "ns1.xn--fo-5ja.example",
-
-"unicodeName" : "ns1.fóo.example",
-
 // state how to fix the above text here
 
 Notes:

@@ -24,6 +24,6 @@ Section 4.5:
 
 ```
 
-## Explanation
+## Issue description
 
 The erratum highlights an inconsistency between the ABNF rule for `chunk-ext` in Appendix B of RFC 7230 and the actual practices observed in HTTP and ICAP implementations. The original specification does not allow whitespace around semicolons and equals signs within `chunk-ext`, while some HTTP agents generate and parse such whitespace, and RFC 2616 implicitly allowed this.  This inconsistency affects interoperability. The proposed change to include optional whitespace improves compatibility with existing implementations and clarifies the specification, addressing a conflict between the RFC and practical implementations.
