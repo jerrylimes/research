@@ -41,7 +41,7 @@ I hope the model knows how to find the `parameter` rule from RFC 7231 as a repla
 
 ## Errata in U-2
 
-## 5638
+### 5638
 
 What counts as an under-specification and what counts as an inconsistency? This one really feels like an inconsistency to me.
 
