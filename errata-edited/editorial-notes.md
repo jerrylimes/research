@@ -44,3 +44,13 @@ I hope the model knows how to find the `parameter` rule from RFC 7231 as a repla
 ## 5638
 
 What counts as an under-specification and what counts as an inconsistency? This one really feels like an inconsistency to me.
+
+## Errata in U-4
+
+### 4413, 4509, and 6263
+
+**HAVE** to be inconsistencies... the only things that were wrong are the section numbers and section names...
+
+### 7866 
+
+literally says "it is classified as INCONSISTENT" and it's under the under-specification folder.
